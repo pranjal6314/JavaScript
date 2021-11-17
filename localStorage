@@ -1,0 +1,16 @@
+localStorage.setItem('name','pranjal');
+    localStorage.setItem('name2','rohan');
+    let arr=['hi','hello','how'];
+    let arr1=['hlo','papu','ji'];
+    localStorage.setItem('new',arr);
+    localStorage.setItem('new1',JSON.stringify(arr1));
+
+     let t=   typeof window.localStorage;
+     let b=   typeof window.localStorage.name;
+     console.log(a);
+      console.log(b);
+     let s= JSON.parse( window.localStorage.new1); //convert string in array
+     console.log(s[1]);
+    //   localStorage.removeItem('name');
+
+    //   localStorage.clear();   
