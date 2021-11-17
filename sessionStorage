@@ -1,0 +1,9 @@
+//temporary storage 
+
+let s_arr=['hi','hello','how'];
+     let s_arr1=['hlo','papu','ji'];       
+    sessionStorage.setItem('sessionname','s_pranjal');
+     sessionStorage.setItem('sessionname2','s_rohan');
+    sessionStorage.setItem('sessionnew',s_arr);
+     sessionStorage.setItem('sessionnew1',JSON.stringify(s_arr1));
+     sessionStorage.clear();
