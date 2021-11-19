@@ -1,0 +1,12 @@
+ //ex is a id of div 
+ 
+ 
+ let g=document.getElementById('ex').addEventListener("click",function(e){
+   console.log('you just click div');
+  //  let v=Array.from(e.target.classList);
+  //  console.log(v);
+   this.contentEditable=true;
+   localStorage.setItem("key",this.innerText);
+   console.log(localStorage);
+
+});
