@@ -1,0 +1,23 @@
+//html 
+
+<div  id="ex">
+    <h1>hello sir</h1>
+    <ul>
+        <li class='d1'>noooo</li>
+        <li class='d2'>nooooo</li>
+        <li class='d3'>noooooo</li>
+        <li class='d4'>nooooooo</li>
+    </ul>
+</div>
+
+*****************************************************************************88
+//js
+ let g=document.getElementById('ex').addEventListener("click",function(e){
+   console.log('you just click div');
+  //  let v=Array.from(e.target.classList);
+  //  console.log(v);
+   this.contentEditable=true;
+   localStorage.setItem("key",this.innerText);
+   console.log(localStorage);
+
+});
