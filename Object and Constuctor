@@ -26,4 +26,11 @@ function generalcar(givenname,givenspeed){
 }
 car1= new generalcar('tata',130);
 car2=new generalcar('maruti',80);
+
+
+//object prototype
+generalcar.prototype.getname=function(){
+        return this.name;
+}
 console.log(car1);
+console.log(car1.toString());
