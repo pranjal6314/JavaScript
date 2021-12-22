@@ -1,0 +1,42 @@
+//js
+
+class empolyee{
+    constructor(given_name,given_exp,given_age){
+        this.name=given_name;
+        this.exp=given_exp;
+        this.age=given_age;
+    }
+    slogan(){
+        return `Hello i am ${this.name} and this is the best company`
+    }
+    joingyear(){
+        return 2021-this.exp;
+    }
+    static add(a,b){
+        return a+b;
+    }
+}
+
+const pranjal=new empolyee(` pranjal choudhary` ,10,19);
+console.log(pranjal);
+class programmer extends empolyee{
+    constructor(given_name,given_exp,given_age,given_language){
+        super(given_name,given_exp,given_age);
+        this.language=given_language;
+    }
+     favlan(){
+        if(this.language=='python'){
+            return 'python is fav language';
+        }
+        else{
+            return 'js is fav language';
+        }
+    }
+    static multy(a,b){
+        return a*b;
+    }
+}
+ rohan=new programmer('rohan',22,34,'python');
+ console.log(rohan)
+ console.log(rohan.favlan());
+ console.log(programmer.multy(2,6))
