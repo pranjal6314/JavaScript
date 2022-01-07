@@ -1,0 +1,17 @@
+//creating a regular function
+const pranjal=function (){
+    console.log("hello pranjal");
+}
+//converting it into arrow function
+const pranjal=()=>{
+    console.log("hello pranjal");
+}
+
+pranjal();
+
+//function return something
+const greet=()=> "good morning";
+console.log(greet());
+
+const greet1=()=>({name:"pranjal"});
+console.log(greet1());
