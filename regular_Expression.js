@@ -22,3 +22,23 @@ let result4=s.search(reg)
 console.log(result4)
 let result5=s.replace(reg,"rohan")
 console.log(result5)
+
+
+console.log("***************************************************************");
+
+let regex=/pranjal/;
+//metacharacters symbols
+regex=/^p/
+regex=/than$/
+regex=/pran.al/
+regex=/pran*jal/
+regex=/pranjala?/
+regex=/pra\*jal/
+let str='pranjal is a good boy,pranjal leave in rajasthan';
+let match=regex.exec(str)
+console.log(match)
+if(regex.test(str)){
+    console.log(`the string "${str}" matches ecpression ${regex}`)
+}else{
+    console.log(`the string "${str}" does not matches ecpression ${regex}`)
+}
