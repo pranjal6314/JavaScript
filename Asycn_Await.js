@@ -1,4 +1,4 @@
-//see in console how code is going 
+//see in console ,how is the code running
 
 
  async function pranjal(){
