@@ -1,0 +1,80 @@
+html{
+    font-size: 30px;
+    color: #4e4d4d;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    max-width: 50rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 3rem;
+    box-shadow: 0 4px  4px darkgrey;
+}
+body{
+    
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.success{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.success > .btn-close{
+    background-color: gray;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.name ,.email,.car,.add,.number{
+    display: flex;
+    padding:1rem;
+}
+
+.container label{
+    flex:0.5;
+    align-self: center;
+}
+.name input{
+    flex: name
+   
+
+}
+.button1{
+    border-radius: 3rem;
+    background-color: burlywood;
+    padding: 15px 32px;
+}
+
+
+.button1 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover span {
+    padding-right: 25px;
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
