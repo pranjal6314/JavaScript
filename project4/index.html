@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body onload="start()">
+    <div id="success" class="success">
+    
+            <strong >Success! Your form is submited</strong>   
+        
+        <button type="button" id="close" class="btn-close" > &#10005</button>
+  
+    </div>
+    <main>
+    <div class="container">
+        <h1>Jaat Travler!</h1>
+        <div class="name">
+            <label for="name">Name </label>
+            <input type="text" placeholder="Enter Your Name" id="name" ></input>
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Your Email" id="email">
+        </div>
+        <div class="car">
+            <label for="car">Car</label>
+            <select name="car" id="car">
+                <option value="Scorpio">Scorpio</option>
+                <option value="Creta">Creta </option>
+                <option value="Toyota Fortuner">Toyota Fortuner </option>
+                <option value="Nexon">Nexon</option>
+            </select>
+        </div>
+        <div class="add">
+            <label for="add">Address</label>
+            <input type="text"   placeholder="Enter Your Address"></input>
+                
+        </div>
+        <div class="number">
+            <label for="number">Phone Number</label>
+            <input type="Number" placeholder="Enter your number">
+        </div>
+        <button class="button1"><span>Submit </span></button>
+    </div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
